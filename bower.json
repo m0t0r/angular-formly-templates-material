@@ -1,0 +1,38 @@
+{
+  "name": "angular-formly-templates-material",
+  "version": "4.0.8",
+  "authors": [
+    "Kent C. Dodds <kent@doddsfamily.us>"
+  ],
+  "contributors": [
+    "Kent C. Dodds <kent@doddsfamily.us>"
+  ],
+  "main": "dist/angular-formly-templates-material.js",
+  "description": "Angular-Formly plugin which outputs material compatible form fields.",
+  "keywords": [
+    "AngularJs",
+    "form",
+    "formly",
+    "json",
+    "material",
+    "html"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": ">=1.2.x",
+    "angular-formly": ">=4.0.5",
+    "api-check": ">=6.0.10",
+    "angular-material": "~0.9.0"
+  },
+  "devDependencies": {
+    "chai": "~1.9.1",
+    "mocha": "~1.21.4"
+  }
+}
