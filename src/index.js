@@ -1,6 +1,6 @@
 const ngModuleName = 'formlyMaterial';
 const angular = require('./angular-fix');
-const ngModule = angular.module(ngModuleName, [require('angular-formly')]);
+const ngModule = angular.module(ngModuleName, [require('angular-formly'), 'ngMaterial']);
 ngModule.constant(
   'formlyMaterialApiCheck',
   require('api-check')({

@@ -5,7 +5,7 @@ export default ngModule => {
     const c = formlyMaterialApiCheck;
     formlyConfigProvider.setWrapper([
       {
-        name: 'bootstrapLabel',
+        name: 'materialLabel',
         template: require('./label.html'),
         apiCheck: {
           templateOptions: c.shape({
@@ -15,7 +15,13 @@ export default ngModule => {
         },
         apiCheckInstance: c
       },
-      {name: 'bootstrapHasError', template: require('./has-error.html')}
+      {name: 'bootstrapHasError', template: require('./has-error.html')},
+      {
+        name: 'mdInputContainer',
+        template: `
+          <md-input-container><formly-transclude></formly-transclude></md-input-container>
+        `
+      }
     ]);
   }
 };

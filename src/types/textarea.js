@@ -6,7 +6,7 @@ export default  ngModule => {
     formlyConfigProvider.setType({
       name: 'textarea',
       template: '<textarea class="form-control" ng-model="model[options.key]"></textarea>',
-      wrapper: ['bootstrapLabel', 'bootstrapHasError'],
+      wrapper: ['materialLabel', 'bootstrapHasError'],
       defaultOptions: {
         ngModelAttrs: {
           rows: {attribute: 'rows'},

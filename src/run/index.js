@@ -1,13 +1,5 @@
-import addons from './addons';
-import description from './description';
+import mdInputContainerFlex from './mdInputContainerFlex';
 
 export default ngModule => {
-  addons(ngModule);
-  description(ngModule);
+  mdInputContainerFlex(ngModule);
 };
-
-//export default ngModule => {
-//  require('./addons')(ngModule);
-//  require('./description')(ngModule);
-//};
-//
