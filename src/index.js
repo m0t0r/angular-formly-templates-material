@@ -15,4 +15,6 @@ require('./wrappers')(ngModule);
 require('./types')(ngModule);
 require('./run')(ngModule);
 
+require('./utils.css');
+
 export default ngModuleName;
