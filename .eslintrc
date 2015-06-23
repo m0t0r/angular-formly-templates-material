@@ -1,0 +1,7 @@
+{
+  "extends": "./node_modules/kcd-common-tools/shared/.eslintrc",
+  "globals": {
+    "angular": false,
+    "_": false
+  }
+}
